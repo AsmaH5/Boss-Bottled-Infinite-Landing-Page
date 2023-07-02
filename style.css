@@ -1,9 +1,55 @@
+@font-face {
+    font-family: 'BodyFont';
+    src: url('Fonts/Muli/03.\ Muli-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TitleFont';
+    src: url('Fonts/DIN/FS-WebFonts-968946746/Fonts/5611706/1c234575-4907-46fb-a87c-4ab80464bb84.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NavFont';
+    src: url('Fonts/Muli/04.\ Muli-SemiBold.ttf') format('truetype');
+}
+  
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Playfair Display', serif; */
+    font-family: 'BodyFont'; 
 }
+
+/* Banner */
+.custom-bg {
+    background-color: #838a8ee1; 
+    position: relative;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  .banner-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .close {
+    margin-top: 5px;
+    position: absolute;
+    top: 0.25rem;
+    right: 1.25rem;
+    justify-content: center;
+    
+  }
+
+/* End of Banner */
 
 /* Header */
 .logo {
@@ -40,6 +86,7 @@ header {
     padding: 15px 200px;
     transition: 0.5s ease;
     height: 80px;
+    z-index: 1;  
 }
 
 header::after {
@@ -115,6 +162,7 @@ header .navigation .navigation-items a {
     text-decoration: none;
     margin-left: 30px;
     transition: 0.3s ease;
+    font-family: 'NavFont';
 }
 
 header .navigation .navigation-items a:before {
@@ -231,3 +279,82 @@ header .navigation .navigation-items a:hover:before {
 }
 
 /* End of Header */
+
+/* Jumbotron */
+.jumbotron{
+    background: rgb(62,123,166);
+    background: linear-gradient(90deg, rgba(62,123,166,1) 0%, rgba(35,66,88,1) 55%, rgba(33,61,81,1) 63%, rgba(31,56,75,1) 72%, rgba(20,33,44,1) 100%);
+    border-radius: 0%;
+    height: 500px ;
+    padding-left: 120px;
+    display: flex; /* Add flex display */
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center content horizontally */
+}
+
+.jumbotron-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottle {
+    width: 550px; /* Adjust the width as needed */
+    margin-left: 20px; /* Add margin between the text and image */
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1040px) {
+    .jumbotron {
+        padding-left: 20px; 
+        font-size: large;
+    }
+
+    .jumbotron-text{
+        margin-top: 0px;
+    }
+
+    .jumbotron-btn{
+        margin-top: 0px;
+    }
+
+    .bottle{
+        display: none;
+        margin: 0%;
+    }
+}
+.jumbotron p{
+    color: white;
+}
+
+h1{
+    font-family: 'TitleFont' !important;
+    color: white;
+    margin: 0%;
+}
+
+#sub-title{
+    font-size: 2.5rem;
+    margin: 0%;
+}
+
+.jumbotron-text{
+    margin-top: 40px;
+}
+
+.jumbotron-btn{
+    margin-top: 25px;
+    padding: 15px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.jumbotron-btn:hover{
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+/* End of Jumbotron */
