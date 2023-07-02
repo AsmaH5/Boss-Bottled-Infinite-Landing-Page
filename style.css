@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Playfair Display', serif; */
+}
+
+/* Header */
+.logo {
+    width: 130px;
+    height: 40px;
+    margin-left: 68px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .logo {
+        left: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo {
+        left: 15px;
+    }
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    transition: 0.5s ease;
+    height: 80px;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1.5px;
+    background-color: #00000048;
+}
+
+#basket {
+    padding: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.basket-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.basket-dropdown {
+    position: absolute;
+    top: 100%;
+    left: -70px;
+    right: 0;
+    width: 250px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: none;
+    z-index: 100;
+}
+
+.basket-container:hover .basket-dropdown {
+    display: block;
+}
+
+.basket-dropdown p {
+    margin: 0;
+    padding: 10px;
+}
+
+.dropdown-button {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border-style: none;
+    width: 230px;
+}
+
+.dropdown-button:hover {
+    background-color: white;
+    color: black;
+}
+
+header .navigation {
+    position: relative;
+    /* margin-bottom: 55px; */
+    margin-left: auto;
+}
+
+header .navigation .navigation-items a {
+    position: relative;
+    color: #000000;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s ease;
+}
+
+header .navigation .navigation-items a:before {
+    content: '';
+    position: absolute;
+    background: #000000;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+header .navigation .navigation-items a:hover:before {
+    width: 100%;
+}
+
+#basket2::before {
+    display: none;
+}
+
+@media (max-width: 1040px) {
+    header {
+        padding: 12px 20px;
+    }
+
+    section {
+        padding: 100px 20px;
+    }
+
+    .home .media-icons {
+        right: 15px;
+    }
+
+    header .navigation {
+        display: none;
+    }
+
+    #basket2 {
+        display: none;
+    }
+
+    header .navigation.active {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(1, 1, 1, 0.5);
+    }
+
+    header .navigation .navigation-items a {
+        color: #222;
+        font-size: 1.2em;
+        margin: 20px;
+    }
+
+    header .navigation .navigation-items a:before {
+        background: #222;
+        height: 5px;
+    }
+
+    header .navigation.active .navigation-items {
+        background: #ffffff;
+        width: 600px;
+        max-width: 600px;
+        margin: 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+    }
+
+    .menu-btn {
+        background: url(Assets/blackmenu.png) no-repeat;
+        background-size: 50px;
+        background-position: center;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        transition: 0.3s ease;
+        position: absolute;
+        top: 40px;
+        right: 75px;
+        transform: translateY(-50%);
+
+    }
+
+    #basket2 {
+        background-size: 50px;
+        background-position: center;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        transition: 0.3s ease;
+        position: absolute;
+        top: 40px;
+        right: 75px;
+        transform: translateY(-50%);
+    }
+
+    .menu-btn.active {
+        z-index: 999;
+        background: url(Assets/Black\ close.png)no-repeat;
+        background-size: 50px;
+        background-position: center;
+        transition: 0.3s ease;
+    }
+}
+
+/* End of Header */
