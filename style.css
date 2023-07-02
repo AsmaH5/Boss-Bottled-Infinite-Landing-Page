@@ -22,7 +22,7 @@
 
 /* Banner */
 .custom-bg {
-    background-color: #838a8ee1; 
+    background-color: #838a8eb2; 
     position: relative;
     padding: 0.5rem;
     text-align: center;
@@ -287,9 +287,9 @@ header .navigation .navigation-items a:hover:before {
     border-radius: 0%;
     height: 500px ;
     padding-left: 120px;
-    display: flex; /* Add flex display */
-    align-items: center; /* Align items vertically */
-    justify-content: center; /* Center content horizontally */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
 }
 
 .jumbotron-content {
@@ -300,8 +300,8 @@ header .navigation .navigation-items a:hover:before {
 }
 
 .bottle {
-    width: 550px; /* Adjust the width as needed */
-    margin-left: 20px; /* Add margin between the text and image */
+    width: 550px; 
+    margin-left: 20px; 
     margin-bottom: 40px;
 }
 
@@ -311,18 +311,29 @@ header .navigation .navigation-items a:hover:before {
         font-size: large;
     }
 
-    .jumbotron-text{
-        margin-top: 0px;
+    .bottle {
+        width: 100%;
+        max-width: 550px;
+        margin-left: 0;
+        margin-bottom: 20px;
+        margin-top: -40px;
     }
 
+    .jumbotron-content {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 390px;
+    }
+
+    .jumbotron-text {
+        text-align: center;
+        margin-top: 0px;
+    }
+    
     .jumbotron-btn{
         margin-top: 0px;
     }
 
-    .bottle{
-        display: none;
-        margin: 0%;
-    }
 }
 .jumbotron p{
     color: white;
