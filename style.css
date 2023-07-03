@@ -633,7 +633,7 @@ header .navigation .navigation-items a:hover:before {
   /* Quote Section */
 
 .quote-section {
-    height: 800px;
+    height: 700px;
     margin-top: 50px !important;
   }
   
@@ -643,7 +643,7 @@ header .navigation .navigation-items a:hover:before {
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    height: 90%;
+    height: 650px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -655,7 +655,7 @@ header .navigation .navigation-items a:hover:before {
     width: 550px;
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.726);
-    margin-right: 420px;
+    margin-right: 465px;
     border-radius: 5px;
 }
 
@@ -684,7 +684,7 @@ header .navigation .navigation-items a:hover:before {
 
 @media (max-width: 768px) {
     #quote-textbox {
-      width: 80%;
+      /* width: 85%; */
       margin-right: auto;
       margin-left: auto;
     }
@@ -692,12 +692,13 @@ header .navigation .navigation-items a:hover:before {
     .quote-section{
         margin-top: -80px !important;
         padding: 0%;
-        height: 350px;
+        height: 200px;
     }
 
     #quote-box{
-        margin-top: 80px;
-        padding: 0%;   
+        margin-top: 150px;
+        padding: 0%; 
+        height: 200px;  
     }
 
     .author{
@@ -881,7 +882,7 @@ header .navigation .navigation-items a:hover:before {
     .product {
         width: 800px;
         height: 600px;
-        margin-top: 10px;
+        margin-top: 65px;
         /* background-color: rgba(255, 255, 255, 0.747); */
         border-radius: 5px;
         position: relative;
