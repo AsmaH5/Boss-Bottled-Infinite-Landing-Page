@@ -11,36 +11,39 @@
 </head>
 <body>
 
-    <aside class="custom-bg" role="alert">
-        <span class="banner-text">Enjoy complimentary samples and exclusive packaging with every order, plus complimentary standard delivery.</span>
-        <button id="closeButton" type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </aside>
+    <div class="sticky-header">
+        <aside class="custom-bg" role="alert">
+            <span class="banner-text">Enjoy complimentary samples and exclusive packaging with every order, plus complimentary standard delivery.</span>
+            <button id="closeButton" type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </aside>
+    
+        <header >
+            <div class="logo">
+                <a href="#"><img src="Assets/logo_blackk1.png" alt="Logo"></a>
+              </div>
+            <div class="menu-btn"></div>
+            <div><i id="basket2" class="fas fa-shopping-basket"></i></div>
+            <div class="navigation">
+              <div class="navigation-items">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Fragrance</a>
+                <a href="#">Sale</a>
+                <a href="#">Discovery</a>
+              </div>
+            </div>
+            <div class="basket-container">
+              <i id="basket" class="fas fa-shopping-basket"></i>
+              <div class="basket-dropdown">
+                <p>Your Shopping Bag is empty</p>
+                <button class="dropdown-button"> Continue Shopping</button>
+              </div>
+            </div>
+        </header>
+    </div>
 
-    <header>
-        <div class="logo">
-            <a href="#"><img src="Assets/logo_blackk1.png" alt="Logo"></a>
-          </div>
-        <div class="menu-btn"></div>
-        <div><i id="basket2" class="fas fa-shopping-basket"></i></div>
-        <div class="navigation">
-          <div class="navigation-items">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Fragrance</a>
-            <a href="#">Sale</a>
-            <a href="#">Discovery</a>
-          </div>
-        </div>
-        <div class="basket-container">
-          <i id="basket" class="fas fa-shopping-basket"></i>
-          <div class="basket-dropdown">
-            <p>Your Shopping Bag is empty</p>
-            <button class="dropdown-button"> Continue Shopping</button>
-          </div>
-        </div>
-    </header>
     
     <section class="jumbotron">
         <div class="jumbotron-content">
@@ -53,6 +56,17 @@
             <img src="Assets/BossBottle.png" class="bottle" alt="Boss Bottle Infinite Perfume">
         </div>
     </section>
+
+    <div class="promo-video">
+        <div class="video-container">
+          <video id="banner-video" preload="auto" muted loop>
+            <source src="Assets/PromoVid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <button id="video-toggle" class="play-pause-button">Play</button>
+        </div>
+      </div>
+      
     
       
 
