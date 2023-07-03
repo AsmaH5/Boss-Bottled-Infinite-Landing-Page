@@ -22,7 +22,7 @@
 
 /* Banner */
 .custom-bg {
-    background-color: #838a8eb2; 
+    background-color: #838a8e8f; 
     position: relative;
     padding: 0.5rem;
     text-align: center;
@@ -300,12 +300,12 @@ header .navigation .navigation-items a:hover:before {
     background: rgb(62,123,166);
     background: linear-gradient(90deg, rgba(62,123,166,1) 0%, rgba(35,66,88,1) 55%, rgba(33,61,81,1) 63%, rgba(31,56,75,1) 72%, rgba(20,33,44,1) 100%);
     border-radius: 0%;
-    height: 500px ;
+    height: 550px ;
     padding-left: 120px;
     display: flex; 
     align-items: center; 
     justify-content: center; 
-    margin-top: 70px;
+    margin-top: 85px;
     margin-bottom: 70px;
 }
 
@@ -362,7 +362,7 @@ header .navigation .navigation-items a:hover:before {
     color: white;
 }
 
-h1{
+#jumbo-title{
     font-family: 'TitleFont' !important;
     color: white;
     margin: 0%;
@@ -371,6 +371,7 @@ h1{
 #sub-title{
     font-size: 2rem;
     margin: 0%;
+    color: white;
 }
 
 .jumbotron-text{
@@ -428,7 +429,7 @@ h1{
     color: #000;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: 0.3s;
     text-decoration: none;
 }
 
@@ -438,10 +439,84 @@ h1{
 
 @media (max-width: 1040px) {
     .promo-video {
-        margin-top: 320px;
-        margin-bottom: 40px;
+        /* margin-top: 320px;
+        margin-bottom: 40px; */
+        display: none;
     }
 
 }
   
 /* End of Promo Video */
+
+/* About Section */
+
+.about-section{
+    height: 700px;
+}
+
+.about-section p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.perfume-bottle{
+    width: 500px;
+    border-radius: 5px;
+}
+
+
+/* .box{
+    border: 2px solid #2C343D;
+    padding: 50px;
+
+} */
+
+#text-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-title{
+    font-family: 'TitleFont' !important;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 20px;
+}
+
+.about-btn {
+    background-color: #3e7ba6;
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%, -50%);
+}
+
+.about-btn:hover{
+    background-color: transparent;
+    border: 1px solid #3e7ba6;
+    color: black;
+}
+  
+@media (max-width: 1040px) {
+
+    .about-section{
+        margin-top: 200px;
+    }
+    .about-btn{
+        top: 105%;
+        margin-bottom: 20px;
+    }
+
+    .about-title{
+        margin-top: 15px;
+    }
+}
+
+
+/* End of About Section  */
