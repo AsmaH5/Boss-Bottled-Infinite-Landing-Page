@@ -684,19 +684,20 @@ header .navigation .navigation-items a:hover:before {
 
 @media (max-width: 768px) {
     #quote-textbox {
-      width: 90%;
+      width: 80%;
       margin-right: auto;
       margin-left: auto;
     }
 
     .quote-section{
-        margin-top: -100px !important;
+        margin-top: -80px !important;
         padding: 0%;
+        height: 350px;
     }
 
     #quote-box{
-        margin-top: 0;
-        padding: 0%;  
+        margin-top: 80px;
+        padding: 0%;   
     }
 
     .author{
@@ -710,72 +711,114 @@ header .navigation .navigation-items a:hover:before {
   
   /* End of Quote Section */
 
-  /* Cart Section */
+/* Cart Section */
 
 .cart {
-  height: 800px;
-  /* background-color: #94A7B4; */
+    height: 800px;
+    /* background-color: #94A7B4; */
 }
 
 #cart-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .product {
-  display: flex;
-  align-items: center;
-  /* border: 2px solid #234258a9; */
-  margin-bottom: 20px;
-  /* transition: box-shadow 0.3s ease; */
-  width: 1000px;
-  height: 530px;
-  margin-top: 60px;
-  /* background-color: rgba(255, 255, 255, 0.747); */
-  border-radius: 5px;
-  position: relative;
-  box-shadow: 0 2px 4px #23425877;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid #234258a9; */
+    margin-bottom: 20px;
+    /* transition: box-shadow 0.3s ease; */
+    width: 1000px;
+    height: 530px;
+    margin-top: 60px;
+    /* background-color: rgba(255, 255, 255, 0.747); */
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 2px 4px #23425877;
 }
 
 /* .product:hover {
-  box-shadow: 0 0 10px #23425852;
-} */
+    box-shadow: 0 0 10px #23425852;
+  } */
 
 .product img {
-  width: 500px;
-  /* margin-right: 40px;
-  margin-left: 30px; */
-  padding: 40px;
+    width: 500px;
+    /* margin-right: 40px;
+    margin-left: 30px; */
+    padding: 40px;
 }
 
 .product-details {
-  flex-grow: 1;
-  padding: 40px;
-  text-align: center;
+    flex-grow: 1;
+    padding: 40px;
+    text-align: center;
 }
 
 .product h2 {
-  font-size: 18px;
-  margin-bottom: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 
 .product p {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+
+.quantity-border {
+    border: 1px solid #1f384b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.quantity p {
+    width: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.quantity button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+.quantity button:hover {
+    transform: scale(1.3);
+}
+
+.plus-btn{
+    margin-left: 15px;
+}
+
+.minus-btn{
+    margin-right: 15px;
+}
+
+
 .add-to-cart-btn {
-   background-color: #1f384b;
-   padding: 15px 50px;
-   margin-top: 30px;
-  color: white;
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+    background-color: #1f384b;
+    padding: 15px 70px;
+    margin-top: 50px;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .add-to-cart-btn:hover {
@@ -787,19 +830,20 @@ header .navigation .navigation-items a:hover:before {
 #line-container {
     display: flex;
     justify-content: center;
-  }
-  
-  .line, .line-2 {
+}
+
+.line,
+.line-2 {
     width: 90% !important;
     height: 2px;
     background-color: #23425852;
-  }
+}
 
-  .line-2{
+.line-2 {
     margin-top: 50px;
-  }
+}
 
-.cart-title{
+.cart-title {
     font-family: 'TitleFont' !important;
     color: rgba(0, 0, 0, 0.76);
     font-size: 35px !important;
@@ -807,18 +851,50 @@ header .navigation .navigation-items a:hover:before {
     letter-spacing: 2px;
 }
 
-.cart-subtitle{
+.cart-subtitle {
     font-family: 'TitleFont' !important;
     color: black;
     font-size: 40px !important;
     margin-top: 5px;
 }
 
-.price{
+.price {
     font-size: 17px;
 }
   
-/* End of Cart Section */
+@media (max-width: 768px) {
+    .product-details {
+      padding: 20px; 
+    }
+  
+    .add-to-cart-btn {
+      padding: 15px 40px; 
+    }
+
+    .product img {
+        width: 200px;
+        /* margin-right: 40px;
+        margin-left: 30px; */
+        padding: 20px;
+    }
+
+    .product {
+        width: 800px;
+        height: 600px;
+        margin-top: 10px;
+        /* background-color: rgba(255, 255, 255, 0.747); */
+        border-radius: 5px;
+        position: relative;
+        box-shadow: 0 2px 4px #23425877;
+    }
+
+    .cart{
+        padding: 0;
+    }
+}
+
+  /* End of Cart Section */
+  
 
 
 
