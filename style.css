@@ -333,20 +333,22 @@ header .navigation .navigation-items a:hover:before {
     .jumbotron {
         padding-left: 20px; 
         font-size: large;
+        height: 900px;
+        margin-top: 170px;
     }
 
     .bottle {
         width: 100%;
         max-width: 550px;
         margin-left: 0;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
         margin-top: -40px;
     }
 
     .jumbotron-content {
         flex-direction: column;
         align-items: center;
-        margin-top: 390px;
+        /* margin-top: 390px; */
     }
 
     .jumbotron-text {
@@ -453,7 +455,7 @@ header .navigation .navigation-items a:hover:before {
 /* About Section */
 
 .about-section{
-    height: 700px;
+    height: 600px;
 }
 
 .about-section p{
@@ -508,15 +510,22 @@ header .navigation .navigation-items a:hover:before {
 @media (max-width: 1040px) {
 
     .about-section{
-        margin-top: 200px;
+        padding: 0;
     }
     .about-btn{
         top: 105%;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .about-title{
         margin-top: 15px;
+    }
+
+    .perfume-bottle{
+        width: 300px;
+        border-radius: 5px;
+        margin: auto;
+        display: block;
     }
 }
 
@@ -527,7 +536,7 @@ header .navigation .navigation-items a:hover:before {
     display: flex;
     align-items: center;
     background-color: #94A7B4;
-    height: 520PX;
+    height: 520px;
   }
   
   
@@ -586,15 +595,26 @@ header .navigation .navigation-items a:hover:before {
 
   @media (max-width: 1040px) {
     .ingredients-section {
-        margin-top: 500px;
-        height: 1100px;
+        margin-top: 200px;
+        justify-content: center;
+        height: 830px;
         margin-bottom: 0;
-       padding: 10px;
+        padding: 5px;
+    }
+
+    .text-block {
+        margin-right: 0;
+        margin-top: -20px;
     }
 
     .circle{
         margin-top: 0;
         padding: 10px !important;
+        margin-right: 20px;
+    }
+
+    .circle-row{
+        margin-left: 50px;
     }
 
     .circle img {
