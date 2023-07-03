@@ -486,7 +486,7 @@ header .navigation .navigation-items a:hover:before {
 }
 
 .about-btn {
-    background-color: #3e7ba6;
+    background-color: #1f384b;
     padding: 15px 30px;
     border: none;
     color: white;
@@ -499,7 +499,7 @@ header .navigation .navigation-items a:hover:before {
 
 .about-btn:hover{
     background-color: transparent;
-    border: 1px solid #3e7ba6;
+    border: 1px solid #1f384b;
     color: black;
 }
   
