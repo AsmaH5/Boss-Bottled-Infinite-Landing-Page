@@ -520,5 +520,67 @@ header .navigation .navigation-items a:hover:before {
     }
 }
 
-
 /* End of About Section  */
+
+/* Ingredients */
+.ingredients-section {
+    display: flex;
+    align-items: center;
+    background-color: #94A7B4;
+    height: 520PX;
+  }
+  
+  
+  .text-block {
+    flex: 1;
+    padding: 45px;
+    margin-top: 40px;
+    color: black;
+    margin-right: 130px;
+  }
+  
+  .circle-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .circle-row {
+    display: flex;
+  }
+  
+  .circle {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .circle p{
+    color: black;
+    text-align: center !important;
+    font-size: 14px;
+  }
+  
+  .circle img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.205);
+  }
+  
+  .circle h3,
+  .circle p {
+    margin: 10px 0;
+  }
+
+  .ingredients-para{
+    text-align: center !important;
+    font-size: 18px;
+  }
+  
+  .ingredients-title{
+    font-family: 'TitleFont' !important;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 20px;
+  }
+  /* End of Ingredients */
