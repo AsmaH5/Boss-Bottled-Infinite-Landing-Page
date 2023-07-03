@@ -298,7 +298,7 @@ header .navigation .navigation-items a:hover:before {
 /* End of Header */
 
 /* Jumbotron */
-.jumbotron{
+.hero{
     background: rgb(62,123,166);
     background: linear-gradient(90deg, rgba(62,123,166,1) 0%, rgba(35,66,88,1) 55%, rgba(33,61,81,1) 63%, rgba(31,56,75,1) 72%, rgba(20,33,44,1) 100%);
     border-radius: 0%;
@@ -330,7 +330,7 @@ header .navigation .navigation-items a:hover:before {
 }
 
 @media (max-width: 1040px) {
-    .jumbotron {
+    .hero {
         padding-left: 20px; 
         font-size: large;
         height: 900px;
@@ -535,8 +535,8 @@ header .navigation .navigation-items a:hover:before {
 .ingredients-section {
     display: flex;
     align-items: center;
-    background-color: #94A7B4;
-    height: 520px;
+    background-color: #234258ce;
+    height: 550px;
   }
   
   
@@ -544,7 +544,7 @@ header .navigation .navigation-items a:hover:before {
     flex: 1;
     padding: 45px;
     margin-top: 40px;
-    color: black;
+    color: white;
     margin-right: 130px;
   }
   
@@ -563,7 +563,7 @@ header .navigation .navigation-items a:hover:before {
   }
 
   .circle p{
-    color: black;
+    color: white;
     text-align: center !important;
     font-size: 14px;
   }
@@ -625,3 +625,20 @@ header .navigation .navigation-items a:hover:before {
 
 }
   /* End of Ingredients */
+
+  .quote-section {
+    height: 800px;
+    margin-top: 50px !important;
+  }
+  
+  #quote-box {
+    background: url(Assets/chrisHemsworth.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    display: block;
+  }
+  
