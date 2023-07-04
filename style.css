@@ -12,23 +12,23 @@
     font-family: 'NavFont';
     src: url('Fonts/Muli/04.\ Muli-SemiBold.ttf') format('truetype');
 }
-  
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'BodyFont'; 
+    font-family: 'BodyFont';
 }
 
 /* Banner */
 .custom-bg {
-    background-color: #838a8e8f; 
+    background-color: #838a8e8f;
     position: relative;
     padding: 0.5rem;
     text-align: center;
-  }
-  
-  .banner-text {
+}
+
+.banner-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,16 +38,16 @@
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 16px;
-  }
-  
-  .close {
+}
+
+.close {
     margin-top: 5px;
     position: absolute;
     top: 0.25rem;
     right: 1.25rem;
     justify-content: center;
-    
-  }
+
+}
 
 /* End of Banner */
 
@@ -97,7 +97,7 @@ header {
     padding: 15px 200px;
     transition: 0.5s ease;
     height: 80px;
-    z-index: 1;  
+    z-index: 1;
 }
 
 /* header::after {
@@ -282,7 +282,7 @@ header .navigation .navigation-items a:hover:before {
         transform: translateY(-50%);
     }
 
-    .basket-dropdown{
+    .basket-dropdown {
         left: -170px;
     }
 
@@ -298,15 +298,15 @@ header .navigation .navigation-items a:hover:before {
 /* End of Header */
 
 /* Jumbotron */
-.hero{
-    background: rgb(62,123,166);
-    background: linear-gradient(90deg, rgba(62,123,166,1) 0%, rgba(35,66,88,1) 55%, rgba(33,61,81,1) 63%, rgba(31,56,75,1) 72%, rgba(20,33,44,1) 100%);
+.hero {
+    background: rgb(62, 123, 166);
+    background: linear-gradient(90deg, rgba(62, 123, 166, 1) 0%, rgba(35, 66, 88, 1) 55%, rgba(33, 61, 81, 1) 63%, rgba(31, 56, 75, 1) 72%, rgba(20, 33, 44, 1) 100%);
     border-radius: 0%;
-    height: 550px ;
+    height: 550px;
     padding-left: 120px;
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 85px;
     margin-bottom: 70px;
 }
@@ -319,8 +319,8 @@ header .navigation .navigation-items a:hover:before {
 }
 
 .bottle {
-    width: 550px; 
-    margin-left: 20px; 
+    width: 550px;
+    margin-left: 20px;
     margin-bottom: 40px;
 }
 
@@ -329,13 +329,13 @@ header .navigation .navigation-items a:hover:before {
     margin-bottom: 50px;
 }
 
-#hashtag{
+#hashtag {
     color: white;
 }
 
 @media (max-width: 768px) {
     .hero {
-        padding-left: 20px; 
+        padding-left: 20px;
         font-size: large;
         height: 900px;
         margin-top: 170px;
@@ -359,34 +359,34 @@ header .navigation .navigation-items a:hover:before {
         text-align: center;
         margin-top: 0px;
     }
-    
-    .jumbotron-btn{
+
+    .jumbotron-btn {
         margin-top: 0px;
     }
 
 }
 
-.jumbotron p{
+.jumbotron p {
     color: white;
 }
 
-#jumbo-title{
+#jumbo-title {
     font-family: 'TitleFont' !important;
     color: white;
     margin: 0%;
 }
 
-#sub-title{
+#sub-title {
     font-size: 2rem;
     margin: 0%;
     color: white;
 }
 
-.jumbotron-text{
+.jumbotron-text {
     margin-top: 40px;
 }
 
-.jumbotron-btn{
+.jumbotron-btn {
     margin-top: 25px;
     padding: 15px 50px;
     background-color: white;
@@ -394,7 +394,7 @@ header .navigation .navigation-items a:hover:before {
     border: none;
 }
 
-.jumbotron-btn:hover{
+.jumbotron-btn:hover {
     color: white;
     border: 1px solid white;
     background-color: transparent;
@@ -453,21 +453,21 @@ header .navigation .navigation-items a:hover:before {
     }
 
 }
-  
+
 /* End of Promo Video */
 
 /* About Section */
 
-.about-section{
+.about-section {
     height: 600px;
 }
 
-.about-section p{
+.about-section p {
     text-align: center;
     font-size: 18px;
 }
 
-.perfume-bottle{
+.perfume-bottle {
     width: 500px;
     border-radius: 5px;
 }
@@ -479,13 +479,13 @@ header .navigation .navigation-items a:hover:before {
 
 } */
 
-#text-box{
+#text-box {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.about-title{
+.about-title {
     font-family: 'TitleFont' !important;
     font-size: 45px;
     text-align: center;
@@ -505,32 +505,33 @@ header .navigation .navigation-items a:hover:before {
     transform: translate(-50%, -50%);
 }
 
-.about-btn:hover{
+.about-btn:hover {
     background-color: transparent;
     border: 1px solid #1f384b;
     color: black;
 }
-  
+
 @media (max-width: 768px) {
 
-    .about-section{
+    .about-section {
         padding: 0;
     }
-    .about-btn{
+
+    .about-btn {
         top: 105%;
-        margin-bottom: 30px;
     }
 
-    .about-title{
+    .about-title {
         margin-top: 15px;
     }
 
-    .perfume-bottle{
+    .perfume-bottle {
         width: 300px;
         border-radius: 5px;
         margin: auto;
         display: block;
     }
+
 }
 
 /* End of About Section  */
@@ -541,67 +542,67 @@ header .navigation .navigation-items a:hover:before {
     align-items: center;
     background-color: #234258ce;
     height: 550px;
-  }
-  
-  
-  .text-block {
+}
+
+
+.text-block {
     flex: 1;
     padding: 45px;
     margin-top: 40px;
     color: white;
     margin-right: 130px;
-  }
-  
-  .circle-container {
+}
+
+.circle-container {
     display: flex;
     flex-direction: column;
-  }
-  
-  .circle-row {
+}
+
+.circle-row {
     display: flex;
-  }
-  
-  .circle {
+}
+
+.circle {
     text-align: center;
     padding: 20px;
-  }
+}
 
-  .circle p{
+.circle p {
     color: white;
     text-align: center !important;
     font-size: 14px;
-  }
-  
-  .circle img {
+}
+
+.circle img {
     width: 160px;
     height: 160px;
     border-radius: 50%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.205);
-  }
-  
-  .circle h3,
-  .circle p {
-    margin: 10px 0;
-  }
+}
 
-  .ingredients-para{
+.circle h3,
+.circle p {
+    margin: 10px 0;
+}
+
+.ingredients-para {
     /* text-align: center !important; */
     font-size: 18px;
-  }
-  
-  .ingredients-title{
+}
+
+.ingredients-title {
     font-family: 'TitleFont' !important;
     font-size: 45px;
     /* text-align: center; */
     margin-top: 0%;
     margin-bottom: 20px;
-  }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     .ingredients-section {
-        margin-top: 180px;
+        margin-top: 150px;
         justify-content: center;
-        height: 830px;
+        height: 740px;
         margin-bottom: 0;
         padding: 5px;
     }
@@ -611,55 +612,51 @@ header .navigation .navigation-items a:hover:before {
         margin-top: -20px;
     }
 
-    .circle{
+    .circle {
         margin-top: 0;
         padding: 10px !important;
         margin-right: 20px;
     }
 
-    .circle-row{
+    .circle-row {
         margin-left: 50px;
     }
 
     .circle img {
         width: 100px;
         height: 100px;
-      }
+    }
 
 
 }
-  /* End of Ingredients */
 
-  /* Quote Section */
+/* End of Ingredients */
+
+/* Quote Section */
 
 .quote-section {
+    display: flex;
     height: 700px;
     margin-top: 50px !important;
-  }
-  
-#quote-box {
-    background: url(Assets/chrisHemsworth.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 650px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
 
-}
-  
-#quote-textbox {
+} 
+
+    #quote-textbox {
     width: 550px;
     padding: 30px;
     background-color: rgba(255, 255, 255, 0.726);
-    margin-right: 465px;
+    position: absolute;
+    /* top: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* transform: translateY(-50%);  */
     border-radius: 5px;
-}
+    z-index: 100;
 
-#quote-textbox p{
+} 
+
+#quote-textbox p {
     font-size: 16px;
     padding: 20px;
     color: black;
@@ -667,8 +664,8 @@ header .navigation .navigation-items a:hover:before {
     margin-bottom: 0%;
 }
 
-.author{
-    display: flex; 
+.author {
+    display: flex;
     justify-content: center;
     padding-top: 0%;
     font-weight: bold;
@@ -676,49 +673,113 @@ header .navigation .navigation-items a:hover:before {
     color: black;
 }
 
-#quote-title{
+#quote-title {
     font-family: 'TitleFont' !important;
     font-size: 45px;
     text-align: center;
 }
 
+#quote-container {
+    /* position: relative; */
+    width: 550px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-image {
+    width: 1150px;
+    height: 670px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 80px;
+}
+
+/* .quote-block {
+    position: absolute;
+    top: 50%;
+    /* right: 320px;
+    transform: translateY(-50%); 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 300px;
+   flex-direction: column;
+    display: flex;
+} */
+
+
+@media (max-width: 480px) {
+    .quote-block {
+        right: 10px;
+        width: 80%;
+        max-width: 300px;
+    }
+}
+
 @media (max-width: 768px) {
-    #quote-textbox {
-      margin-right: auto;
-      margin-left: auto;
+    /* .quote-block {
+        right: 20px;
+        width: 90%;
+        max-width: 400px;
+    } */
+
+    .quote-image {
+        width: 400px;
+        height: 250px;
+        margin-bottom: 0;
+        margin-top: 0;
     }
-  
+
     .quote-section {
-      margin-top: -80px !important;
-      padding: 0%;
-      height: 200px;
+        margin-top: 45px !important;
+        padding: 0%;
+        height: 300px;
+
     }
-  
-    #quote-box {
-      margin-top: 150px;
-      padding: 0%;
-      height: 200px;
-    }
-  
-    .author {
-      font-size: 14px;
-    }
-  
-    #quote-title {
-      font-size: 25px;
-    }
-  }
-  
-  @media (min-width: 769px) and (max-width: 1080px) {
+    
+/* 
     #quote-textbox {
-      margin-right: 145px !important;
-      margin-left: auto !important;
+        right: 20px;
+        width: 90%;
+        max-width: 400px;
+        margin-right: auto;
+        margin-left: auto;
     }
-  }
-  
-  
-  
-  /* End of Quote Section */
+
+    .quote-section {
+        margin-top: -80px !important;
+        padding: 0%;
+        height: 200px;
+    }
+
+    #quote-box {
+        margin-top: 150px;
+        padding: 0%;
+        height: 200px;
+    }
+
+    .author {
+        font-size: 14px;
+    }
+
+    #quote-title {
+        font-size: 25px;
+    }*/
+}
+
+/* @media (min-width: 769px) and (max-width: 1080px) {
+    #quote-textbox {
+        margin-right: 145px !important;
+        margin-left: auto !important;
+    }
+}  */
+
+
+
+/* End of Quote Section */
 
 /* Cart Section */
 
@@ -797,7 +858,7 @@ header .navigation .navigation-items a:hover:before {
     margin-top: 10px;
 }
 
-.quantity button{
+.quantity button {
     background-color: transparent;
     border: none;
     font-size: 20px;
@@ -807,11 +868,11 @@ header .navigation .navigation-items a:hover:before {
     transform: scale(1.3);
 }
 
-.plus-btn{
+.plus-btn {
     margin-left: 15px;
 }
 
-.minus-btn{
+.minus-btn {
     margin-right: 15px;
 }
 
@@ -870,14 +931,14 @@ header .navigation .navigation-items a:hover:before {
 .price {
     font-size: 17px;
 }
-  
+
 @media (max-width: 768px) {
     .product-details {
-      padding: 20px; 
+        padding: 20px;
     }
-  
+
     .add-to-cart-btn {
-      padding: 15px 40px; 
+        padding: 15px 40px;
     }
 
     .product img {
@@ -897,51 +958,10 @@ header .navigation .navigation-items a:hover:before {
         box-shadow: 0 2px 4px #23425877;
     }
 
-    .cart{
+    .cart {
         padding: 0;
     }
 }
 
-  /* End of Cart Section */
-  
-  /* Another Quote Section */
-  #quote-container {
-    position: relative;
-    max-width: 100%;
-  }
-  
-  .background-image {
-    width: 100%;
-    height: auto;
-  }
-  
-  .quote-block {
-    position: absolute;
-    top: 50%;
-    right: 320px;
-    transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    width: 300px;
-  }
-  
-  @media (max-width: 768px) {
-    .quote-block {
-      right: 20px;
-      width: 90%;
-      max-width: 400px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .quote-block {
-      right: 10px;
-      width: 80%;
-      max-width: 300px;
-    }
-  }
+/* End of Cart Section */
 
-
-
-
-  
