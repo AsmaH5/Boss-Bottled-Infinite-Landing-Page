@@ -338,7 +338,7 @@ header .navigation .navigation-items a:hover:before {
         padding-left: 20px;
         font-size: large;
         height: 900px;
-        margin-top: 170px;
+        margin-top: 90px;
     }
 
     .bottle {
@@ -352,7 +352,7 @@ header .navigation .navigation-items a:hover:before {
     .jumbotron-content {
         flex-direction: column;
         align-items: center;
-        /* margin-top: 390px; */
+        margin-top: 105px;
     }
 
     .jumbotron-text {
@@ -1299,4 +1299,31 @@ header .navigation .navigation-items a:hover:before {
     color: rgba(255, 255, 255, 0.76);
    }
 
+   .socialmedia{
+    margin-bottom: 1.5rem;
+   }
+
+   .footer-logo{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+   }
+
+   @media (max-width: 768px) {
+        .footer-logo{
+            margin-top: 0 !important;
+        }
+
+        .socialmedia{
+            margin-top:0;
+            padding-top: 10px !important;
+            padding-bottom: 0;
+           }
+
+        .socialmedia-container{
+            padding-bottom: 0;
+            padding-top: 0 !important;
+            margin-top: -160px !important;
+        }
+
+    }
    /* End of Footer */
