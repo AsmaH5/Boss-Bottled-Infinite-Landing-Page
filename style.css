@@ -60,7 +60,7 @@
 
     }
 
-    #closeButton{
+    .close{
         margin-right: 16px;
     }
 
@@ -1259,13 +1259,17 @@ header .navigation .navigation-items a:hover:before {
 
 .subscribe-section input {
   border: unset;
-  background-color: #92a5ad98;
+  background-color: #92a5ad67;
   padding: 12.5px 25px;
   font-size: 13px;
   border-radius: 15px;
   width: 300px;
   outline: none;
 }
+
+input:focus::placeholder {
+    color: transparent;
+  }
 
 .subscribe-section button {
   background-color: #1f384b;
