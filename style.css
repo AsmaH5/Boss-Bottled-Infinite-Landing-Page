@@ -1303,13 +1303,13 @@ header .navigation .navigation-items a:hover:before {
     margin-bottom: 1.5rem;
    }
 
-   .footer-logo{
-    margin-top: 3rem;
+   #footer-logo{
+    margin-top: 4rem;
     margin-bottom: 1rem;
    }
 
    @media (max-width: 768px) {
-        .footer-logo{
+        #footer-logo{
             margin-top: 0 !important;
         }
 
