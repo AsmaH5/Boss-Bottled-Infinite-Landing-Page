@@ -202,6 +202,10 @@ header .navigation .navigation-items a:hover:before {
         padding: 12px 20px;
     }
 
+    .basket-dropdown{
+        display: none;
+    }
+
     section {
         padding: 100px 20px;
     }
@@ -316,6 +320,7 @@ header .navigation .navigation-items a:hover:before {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 0 !important;
 }
 
 .bottle {
@@ -904,15 +909,10 @@ header .navigation .navigation-items a:hover:before {
     justify-content: center;
 }
 
-.line,
-.line-2 {
-    width: 90% !important;
+.line {
+    width: 95% !important;
     height: 2px;
     background-color: #23425852;
-}
-
-.line-2 {
-    margin-top: 50px;
 }
 
 .cart-title {
