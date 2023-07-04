@@ -10,7 +10,7 @@ Design a page with a mobile first approach and then focus on tablet and desktop 
 * Bootstrap
 * Font Awesome
 
-## WireFrame Examples developed in Figma
+## WireFrame Examples developed in Figma & Colour Palette
 
 ## Usage
 
@@ -31,4 +31,5 @@ https://asmah5.github.io/Boss-Bottled-Infinite-Landing-Page/
 * [CSS Gradient](https://cssgradient.io/)
 * [Color Palette from Image](https://colordesigner.io/color-palette-from-image)
 * [Code Convey](https://codeconvey.com/)
+* [Moodboard](https://www.behance.net/collection/204970665/Perfume)
 
