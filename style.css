@@ -1287,3 +1287,16 @@ header .navigation .navigation-items a:hover:before {
 }
 
    /* End of Newsletter Section */
+
+   /* Footer Section */
+
+   footer a{
+    color: white;
+    text-decoration: none !important;
+   }
+
+   footer a:hover{
+    color: rgba(255, 255, 255, 0.76);
+   }
+
+   /* End of Footer */
