@@ -202,10 +202,6 @@ header .navigation .navigation-items a:hover:before {
         padding: 12px 20px;
     }
 
-    .basket-dropdown{
-        display: none;
-    }
-
     section {
         padding: 100px 20px;
     }
