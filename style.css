@@ -576,7 +576,7 @@ header .navigation .navigation-items a:hover:before {
     flex: 1;
     padding: 45px;
     margin-top: 40px;
-    color: black;
+    color: white;
     margin-right: 130px;
 }
 
@@ -595,7 +595,7 @@ header .navigation .navigation-items a:hover:before {
 }
 
 .circle p {
-    color: black;
+    color: white;
     text-align: center !important;
     font-size: 14px;
 }
