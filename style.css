@@ -334,6 +334,10 @@ header .navigation .navigation-items a:hover:before {
     color: white;
 }
 
+.banner-text{
+    font-size: 14px;
+}
+
 @media (max-width: 768px) {
     .hero {
         padding-left: 20px;
@@ -363,6 +367,22 @@ header .navigation .navigation-items a:hover:before {
 
     .jumbotron-btn {
         margin-top: 0px;
+    }
+
+    .banner-text{
+        font-size: 12px;
+        padding-right: 55px !important;
+        padding-left: 55px;
+
+    }
+
+    #closeButton{
+        margin-right: 15px;
+    }
+
+    .custom-bg{
+        margin: 0 !important;
+        padding: 0.25rem;
     }
 
 }
@@ -519,7 +539,7 @@ header .navigation .navigation-items a:hover:before {
     }
 
     .about-btn {
-        top: 105%;
+        top: 109%;
     }
 
     .about-title {
@@ -622,7 +642,7 @@ header .navigation .navigation-items a:hover:before {
     }
 
     .circle-row {
-        margin-left: 50px;
+        margin-left: 60px;
     }
 
     .circle img {
@@ -873,10 +893,12 @@ header .navigation .navigation-items a:hover:before {
 
 .plus-btn {
     margin-left: 15px;
+    color: #1f384b;
 }
 
 .minus-btn {
     margin-right: 15px;
+    color: #1f384b;
 }
 
 
@@ -949,7 +971,7 @@ header .navigation .navigation-items a:hover:before {
     .product {
         width: 800px;
         height: 600px;
-        margin-top: 65px;
+        margin-top: 0px;
         /* background-color: rgba(255, 255, 255, 0.747); */
         border-radius: 5px;
         position: relative;
@@ -958,6 +980,11 @@ header .navigation .navigation-items a:hover:before {
 
     .cart {
         padding: 0;
+        height: 655px;
+    }
+
+    .line{
+        display:none;
     }
 }
 
