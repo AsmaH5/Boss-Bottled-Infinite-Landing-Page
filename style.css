@@ -1175,3 +1175,99 @@ header .navigation .navigation-items a:hover:before {
       font-size: 14px;
     }
   }
+
+  /* End of Customer Review */
+
+
+  /* Newsletter Section */
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .content {
+  background: #fff;
+  padding: 40px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.wrapper .content header h1 {
+  font-size: 230%;
+  margin-top: 0;
+}
+.wrapper .content section {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+.subscribe-section {
+  padding: 15px;
+}
+
+.newsletter-title{
+    font-family: 'TitleFont' !important;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.subscribe-section input {
+  border: unset;
+  background-color: #92a5ad98;
+  padding: 12.5px 25px;
+  font-size: 13px;
+  border-radius: 15px;
+  width: 300px;
+  outline: none;
+}
+
+.subscribe-section button {
+  background-color: #1f384b;
+  color: #fff;
+  border: unset;
+  width: 120px;
+  border-radius: 15px;
+  padding: 10px 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.subscribe-section button:hover{
+    background-color: transparent;
+    border: 1px solid #1f384b;
+    color: black;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .newsletter-text{
+        padding: 0;
+    }
+    .newsletter{
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .subscribe-section input{
+        margin-bottom: 20px;
+    }
+  .wrapper .content {
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+    padding: 15px;
+  }
+  .wrapper .content footer input {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+}
+
+   /* End of Newsletter Section */
