@@ -339,7 +339,7 @@ header .navigation .navigation-items a:hover:before {
         padding-left: 20px;
         font-size: large;
         height: 900px;
-        margin-top: 90px;
+        margin-top: 80px;
     }
 
     .bottle {
@@ -353,7 +353,7 @@ header .navigation .navigation-items a:hover:before {
     .jumbotron-content {
         flex-direction: column;
         align-items: center;
-        margin-top: 105px;
+        margin-top: 110px !important;
     }
 
     .jumbotron-text {
