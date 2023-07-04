@@ -46,6 +46,28 @@
     top: 0.25rem;
     right: 1.25rem;
     justify-content: center;
+}
+
+.banner-text{
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .banner-text{
+        font-size: 13px;
+        padding-right: 55px !important;
+        padding-left: 55px;
+
+    }
+
+    #closeButton{
+        margin-right: 16px;
+    }
+
+    .custom-bg{
+        margin: 0 !important;
+        padding: 0.25rem;
+    }
 
 }
 
@@ -334,9 +356,7 @@ header .navigation .navigation-items a:hover:before {
     color: white;
 }
 
-.banner-text{
-    font-size: 14px;
-}
+
 
 @media (max-width: 768px) {
     .hero {
@@ -369,21 +389,6 @@ header .navigation .navigation-items a:hover:before {
         margin-top: 0px;
     }
 
-    .banner-text{
-        font-size: 12px;
-        padding-right: 55px !important;
-        padding-left: 55px;
-
-    }
-
-    #closeButton{
-        margin-right: 15px;
-    }
-
-    .custom-bg{
-        margin: 0 !important;
-        padding: 0.25rem;
-    }
 
 }
 
