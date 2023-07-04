@@ -968,7 +968,7 @@ header .navigation .navigation-items a:hover:before {
 /* Customer Review */
 
 .customer-review{
-    height: 460px;
+    height: 430px;
     background-color: #92A5AD;
 }
 *, *:before, *:after {
@@ -1079,7 +1079,7 @@ header .navigation .navigation-items a:hover:before {
   font-family: 'TitleFont' !important;
   font-size: 50px;
   font-weight: 500;
-  margin: 2rem 0 1rem;
+  margin: 1.5rem 0 0.5rem;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   color: black;
@@ -1089,7 +1089,7 @@ header .navigation .navigation-items a:hover:before {
   color: black;
   margin-bottom: 20px;
   max-width: 300px;
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 18px;
 }
 
