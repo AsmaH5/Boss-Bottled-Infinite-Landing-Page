@@ -540,7 +540,8 @@ header .navigation .navigation-items a:hover:before {
 .ingredients-section {
     display: flex;
     align-items: center;
-    background-color: #234258ce;
+    /* background-color: #234258ce; */
+    background: linear-gradient(45deg, rgba(183, 204, 246, 0.87), rgba(3,49,68,100)), url("Assets/bg2.jpg");
     height: 550px;
 }
 
@@ -549,7 +550,7 @@ header .navigation .navigation-items a:hover:before {
     flex: 1;
     padding: 45px;
     margin-top: 40px;
-    color: white;
+    color: black;
     margin-right: 130px;
 }
 
@@ -568,7 +569,7 @@ header .navigation .navigation-items a:hover:before {
 }
 
 .circle p {
-    color: white;
+    color: black;
     text-align: center !important;
     font-size: 14px;
 }
@@ -600,16 +601,17 @@ header .navigation .navigation-items a:hover:before {
 
 @media (max-width: 768px) {
     .ingredients-section {
-        margin-top: 150px;
+        margin-top: 200px;
         justify-content: center;
-        height: 740px;
+        height: 820px;
         margin-bottom: 0;
         padding: 5px;
     }
 
     .text-block {
         margin-right: 0;
-        margin-top: -20px;
+        margin-top: 10px;
+        padding-top: 5px;
     }
 
     .circle {
@@ -965,13 +967,20 @@ header .navigation .navigation-items a:hover:before {
 
 /* End of Cart Section */
 
-/* Customer Review */
 
+/* Customer Review */
 .customer-review{
     height: 430px;
-    background-color: #92A5AD;
+    /* background-color: #7B91AD; */
+    background: linear-gradient(45deg, rgba(81, 87, 99, 0.637), rgba(3,49,68,100)), url("Assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    margin: 0;
+    position: relative;
+    background-attachment: fixed;
 }
-
 
 .slider {
   height: 100%;
@@ -1000,7 +1009,7 @@ header .navigation .navigation-items a:hover:before {
     margin: 10px 12px 2rem; 
     border-radius: 50%;
     z-index: 10;
-    outline: 6px solid #0505056b;
+    outline: 6px solid #adadad6b;
     outline-offset: -6px;
     box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
     cursor: pointer;
@@ -1079,11 +1088,11 @@ header .navigation .navigation-items a:hover:before {
   margin: 1.5rem 0 0.5rem;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
-  color: black;
+  color: white;
 }
 
 .slider-text {
-  color: black;
+  color: white;
   margin-bottom: 20px;
   max-width: 300px;
   margin-top: 15px;
@@ -1092,7 +1101,7 @@ header .navigation .navigation-items a:hover:before {
 
 .name{
     font-size: 18px;
-    color: #000000d2;
+    color: rgba(255, 255, 255, 0.733);
 }
 
 
